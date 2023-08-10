@@ -29,7 +29,7 @@ public class ApiService {
                 .map(data -> data.getIngredient() + " " + data.getQuantity() + data.getUnit())
                 .collect(Collectors.toList());
 
-        //Create Combine Data
+        //Create Combined Data
         CombinedData combinedData = new CombinedData();
         combinedData.setId("1");
         combinedData.setCustomer_id(customerId);
